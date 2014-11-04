@@ -1,11 +1,14 @@
 @import url(fonts/clear-sans.css);
 html, body {
   margin: 0;
+  background-image: url('../img/background.jpg');
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
   padding: 0;
-  background: #faf8ef;
   color: #776e65;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
+
 
 body {
   margin: 80px 0; }
@@ -60,7 +63,7 @@ h1.title {
   line-height: 47px;
   font-weight: bold;
   border-radius: 3px;
-  color: white;
+  color: black;
   margin-top: 8px;
   text-align: center; }
   .score-container:after, .best-container:after {
@@ -72,7 +75,7 @@ h1.title {
     font-size: 13px;
     line-height: 13px;
     text-align: center;
-    color: #eee4da; }
+    color: #000000; }
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
@@ -313,57 +316,59 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: #eee4da;
+    color: #ff0000;
+    background: url('../img/sw1.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: #ede0c8;
+    color: #ff0000;
+    background: url('../img/sw2.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
-    background: #f2b179; }
+    color: #ff0000;
+    background: url('../img/sw3.jpg');}
   .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
-    background: #f59563; }
+    color: #ff0000;
+    background: url('../img/sw4.jpg');}
   .tile.tile-32 .tile-inner {
-    color: #f9f6f2;
-    background: #f67c5f; }
+    color: #ff0000;
+    background: url('../img/sw5.jpg');}
   .tile.tile-64 .tile-inner {
-    color: #f9f6f2;
-    background: #f65e3b; }
+    color: #ff0000;
+    background: url('../img/sw6.jpg');}
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
-    background: #edcf72;
+    color: #ff0000;
+    background: url('../img/sw7.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
-    color: #f9f6f2;
-    background: #edcc61;
+    color: #ff0000;
+    background: url('../img/sw8.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
-    color: #f9f6f2;
-    background: #edc850;
+    color: #ff0000;
+    background: url('../img/sw9.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
-    color: #f9f6f2;
-    background: #edc53f;
+    color: #ff0000;
+    background: url('../img/sw10.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
-    color: #f9f6f2;
+    color: #ff0000;
     background: #edc22e;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
@@ -371,8 +376,8 @@ hr {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
-    color: #f9f6f2;
-    background: #3c3a32;
+    color: #ff0000;
+    background: url('../img/sw11.jpg');
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
@@ -551,7 +556,6 @@ hr {
     -ms-user-select: none;
     -ms-touch-action: none;
     touch-action: none;
-    background: #bbada0;
     border-radius: 6px;
     width: 280px;
     height: 280px;
